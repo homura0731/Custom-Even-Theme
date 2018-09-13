@@ -26,9 +26,9 @@
       a {
         color: inherit;
 
-        &::before {
-          content: '·';
-        }
+        // &::before {
+        //   content: '·';
+        // }
 
         &:hover {
           color: $theme-color;
@@ -36,11 +36,13 @@
       }
     }
 
-    .more-meta {
-      &::before {
-        content: '·';
-      }
+    // .more-meta {
+    //   &::before {
+    //     content: '·';
+    //   }
+    // }
+    i {
+      margin: 0.25rem;
     }
-
   }
 }
